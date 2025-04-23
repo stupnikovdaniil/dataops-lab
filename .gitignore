@@ -1,0 +1,20 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Logs / Env
+*.log
+.env
+
+# 🔐 Игнорировать каталог secrets в корне
+/secrets/
+
+# 🔐 Или все secrets где бы они ни были (если появятся в templates, vms и т.д.)
+**/secrets/
+
